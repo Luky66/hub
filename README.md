@@ -27,7 +27,10 @@ In the future I am definately looking to collaborate with some colleagues of min
 ## Tools
 
 This web applicaiton was built with the following tools:
-
+- [Megaboilerplate.com](megaboilerplate.com)
+    - NodeJS & npm
+    - Angular JS
+    - Mongodb
 
 
 ## License
