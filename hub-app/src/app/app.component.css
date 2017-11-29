@@ -1,0 +1,46 @@
+.navbar-gradient 
+{
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #f5f5f5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #f5f5f5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #f5f5f5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #f5f5f5); /* Standard syntax (must be last) */
+}
+
+.spaces-div 
+{
+    height: 50px;
+    margin-left: 80px;
+    width: calc(100% - 160px);
+    float: left;
+    text-align: center;
+}
+
+.spaces-div table
+{
+    margin: 0 auto;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+}
+
+.spaces-div table tbody th 
+{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: none;
+    margin: 0;
+}
+
+.spaces-div table tbody th:hover
+{
+    box-shadow: inset 0px 0px 2px 0px #ffd000;
+}
+
+.spaces-div table tbody th:active
+{
+    box-shadow: inset 0px 0px 2px 0px #006eff;
+}
