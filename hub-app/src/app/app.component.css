@@ -28,19 +28,22 @@
 .spaces-div table tbody th 
 {
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
 
     border: none;
     margin: 0;
+
+    border-bottom: 5px solid transparent;
 }
 
 .spaces-div table tbody th:hover
 {
-    box-shadow: inset 0px 0px 2px 0px #ffd000;
+    border-bottom: 5px solid #ffd000;
 }
 
 .spaces-div table tbody th:active
 {
-    box-shadow: inset 0px 0px 2px 0px #006eff;
+    border-bottom: 5px solid #006eff;
 }
