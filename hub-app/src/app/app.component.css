@@ -47,3 +47,16 @@
 {
     border-bottom: 5px solid #006eff;
 }
+
+.user-grid .row
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.user-grid .row div div
+{
+    background-color: #ff0000;
+    height: 100px;
+    padding: 10px;
+}
